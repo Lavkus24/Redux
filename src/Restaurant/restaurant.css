@@ -1,0 +1,21 @@
+.Center {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    height: 60vh; /* Optionally, you can set the height of the container */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns of equal width */
+    grid-gap: 20px; /* Gap between grid items */
+    justify-content: center; /* Center align items horizontally */
+}
+
+.input {
+    width: 200px; /* Set a fixed width for the text fields */
+}
+
+.btn {
+    grid-column: span 2; /* Span button across two columns */
+}
